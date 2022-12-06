@@ -1,0 +1,399 @@
+body{
+    background-image: url("./images/PHP_website_background-02.png");
+    background-size: cover;
+    text-align: center;
+}
+
+/*-----------------------Landing Page-----------------------*/
+
+.navbar-custom{
+    background-color: #A7AAAA !important;
+    
+}
+.navbar a{
+    color: white !important;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.custom-toggler.navbar-toggler-icon {
+    border-color: rgb(255,102,203) !important;
+} 
+
+.navbar-nav a:hover{
+    color: #AF883A !important;
+}
+
+/*-----------------------Landing Page-----------------------*/
+#Landing-Page{
+    margin-top: 50px;
+}
+.landing-page-main{
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    margin: 0 50px 0 50px;
+    border-radius: 25px;
+    padding-bottom: 50px;
+}
+.landing-page-heading{
+    font-family: 'Kanit', sans-serif;
+    color: #353333;;
+}
+
+.landing-page-heading:hover{
+    color: #AF883A;
+}
+
+.landing-page-info{
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+}
+
+/*-----------------------Services Page-----------------------*/
+#Services{
+    margin-bottom: 30px;
+}
+.services-page{
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    margin: 0 50px 0 50px;
+    padding: 50px 0 60px 0;
+    border-radius: 25px;
+}
+
+.services-heading{
+    font-family: 'Kanit', sans-serif;
+    color: #353333;
+}
+
+.services-text{
+    font-family: 'Inter', sans-serif;
+}
+
+.feature-title{
+    font-family: 'Kanit', sans-serif;
+    margin-top:5px;
+}
+
+.services-icon:hover{
+    color: #AF883A;
+}
+
+/*-----------------------Contact Page-----------------------*/
+
+.contact-page-main{
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    margin: 0 50px 20px 50px;
+    padding: 50px 0 60px 0;
+    border-radius: 25px;
+}
+
+.contact-heading{
+    font-family: 'Kanit', sans-serif;
+    padding: 0 10px 0 10px;
+}
+.contact-form-icon-container{
+    margin-top: 25px;
+}
+
+.contact-text{
+    font-family: 'Inter', sans-serif;
+}
+
+.contact-form-text{
+    font-family: 'Kanit', sans-serif;
+}
+
+.contact-id{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.message-id{
+    border: none;
+  border-radius: 20px;
+  padding:10px;
+  width: 80%;
+  box-sizing: border-box;
+  height: 150px;
+}
+
+
+/*-----------------------About Page-----------------------*/
+
+#About-Page{
+    margin-top: 20px;
+}
+
+.about-page-main{
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    margin: 0 50px 20px 50px;
+    padding: 50px 0 60px 0;
+    border-radius: 25px;
+}
+
+.about-heading{
+    font-family: 'Kanit', sans-serif;
+}
+.about-heading:hover{
+    color: #AF883A;
+}
+
+
+.about-text{
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+    padding: 0 10px 0 10px;
+}
+
+.about-text-form{
+    color: #AF883A;
+}
+
+.about-text-form:hover{
+    color: black;
+}
+
+/*-----------------------Products Page-----------------------*/
+.store-header{
+    background-image: url(/images/cannabis-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*-----------------------Footer-----------------------*/
+.footer-icon{
+    margin: 0 5px 0 5px;
+}
+
+.footer-icon:hover{
+    color: #AF883A;
+}
+
+.footer-text{
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+/*-----------------------Media Queries-----------------------*/
+
+/* smartphones, iPhone, portrait 480x320 phones */ 
+@media (min-width:320px)  {
+#Landing-Page{
+    margin-bottom: 20px;
+}
+
+.Lion_Head_Design{
+    width: 250px;
+    height: 250px;
+}
+
+.landing-page-heading{
+    text-align: center;
+}
+
+.landing-page-info{
+    text-align: center; 
+}
+
+.services-button{
+    margin: 10px 0 10px 0;
+}
+
+.services-icon{
+    margin: 10px 0 10px 0;
+}
+
+.contact-image{
+    width: 250px;
+    height: 250px;
+}
+
+.about-images{
+    width: 250px;
+    height: 250px;
+}
+
+
+
+
+
+
+ }
+
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+@media (min-width:481px)  { 
+    .about-images{
+        width: 280px;
+        height: 280px;
+    }
+
+}
+
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+@media (min-width:641px)  { 
+
+    #Landing-Page{
+        margin-bottom: 20px;
+    }
+
+
+    .Lion_Head_Design{
+        width: 350px;
+       height: 350px;
+   }
+
+   .landing-page-heading{
+    text-align: left;
+    }
+
+.landing-page-info{
+    text-align: left; 
+}
+
+.contact-image{
+    width: 350px;
+    height: 350px;
+}
+
+.about-images{
+    width: 350px;
+    height: 350px;
+}
+
+
+
+
+
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */ 
+@media (min-width:961px)  { 
+    #Landing-Page{
+        margin-bottom: 20px;
+    }
+
+    .Lion_Head_Design{
+        width: 450px;
+       height: 450px;
+   }
+
+   .landing-page-heading{
+    text-align: left;
+    }
+
+.landing-page-info{
+    text-align: left; 
+    }
+
+    .contact-image{
+        width: 500px;
+       height: 500px;
+   }
+
+   .contact-form{
+    margin-top: 50px !important;
+   }
+   .contact-icons{
+    margin: 0 10px 0 10px;
+}
+
+.about-images{
+    width: 450px;
+    height: 450px;
+}
+
+
+
+
+   
+}
+
+
+
+ /* big landscape tablets, laptops, and desktops */ 
+@media (min-width:1025px) {
+
+    #Landing-Page{
+        margin-bottom: 20px;
+    }
+    .Lion_Head_Design{
+        width: 450px;
+       height: 450px;
+   }
+
+   .landing-page-heading{
+    text-align: left;
+    }
+
+    .landing-page-info{
+    text-align: left; 
+    }
+
+    .contact-image{
+        width: 500px !important;
+       height: 500px !important;
+   }
+
+   .contact-icons{
+    margin: 0 15px 0 15px;
+}
+
+.about-images{
+    width: 500px;
+    height: 500px;
+}
+
+
+
+
+
+}
+
+
+
+/* hi-res laptops and desktops */ 
+@media (min-width:1281px) {
+
+    #Landing-Page{
+        margin-bottom: 20px;
+    }
+
+    .Lion_Head_Design{
+         width: 450px;
+        height: 450px;
+    }
+
+
+    .landing-page-heading{
+        text-align: left;
+    }
+
+    .landing-page-info{
+        text-align: left; 
+    }
+
+    .contact-image{
+        width: 480px;
+       height: 480px;
+   }
+
+   .contact-icons{
+        margin: 0 15px 0 15px;
+   }
+
+   .about-images{
+    width: 500px;
+    height: 500px;
+   }
+
+ }
+
