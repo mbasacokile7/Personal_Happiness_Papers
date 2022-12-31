@@ -1,13 +1,13 @@
 body{
-    background-image: url("./images/PHP_website_background-02.png");
-    background-size: cover;
+    background-image: url("./product_images/PHP_Background.png");
+    background-size: contain;
     text-align: center;
 }
 
 /*-----------------------Landing Page-----------------------*/
 
 .navbar-custom{
-    background-color: #A7AAAA !important;
+    background-color: black !important;
     
 }
 .navbar a{
@@ -24,11 +24,30 @@ body{
 }
 
 /*-----------------------Landing Page-----------------------*/
+
+#landing-page-header{
+    background-image: url("./product_images/Landing-Page-header.jpeg") !important;
+    background-size: cover;
+    background-position: center bottom 2px !important;
+    height: 100vh  
+}
+
+#header-container{
+    padding-top: 100px !important;
+}
+
+
+.landing-page-btn{
+    margin-top: 10px;
+
+}
+
+
 #Landing-Page{
     margin-top: 50px;
 }
 .landing-page-main{
-    background-color: rgba(255, 255, 255, .15);  
+    background-color: rgba(255, 255, 255, .26);  
     backdrop-filter: blur(5px);
     margin: 0 50px 0 50px;
     border-radius: 25px;
@@ -36,7 +55,9 @@ body{
 }
 .landing-page-heading{
     font-family: 'Kanit', sans-serif;
-    color: #353333;;
+    color: black;
+    text-shadow: 2px 2px 8px white;
+    text-align: center !important;
 }
 
 .landing-page-heading:hover{
@@ -46,14 +67,29 @@ body{
 .landing-page-info{
     text-align: left;
     font-family: 'Inter', sans-serif;
+    color: black;
+    font-weight: 600;
+}
+
+.learn-btn{
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    transition: font-size 1.2s;
+}
+
+.learn-btn:hover{
+    background-color: #AF883A;
+    font-size: 23px;
 }
 
 /*-----------------------Services Page-----------------------*/
 #Services{
     margin-bottom: 30px;
+    margin-top: 10px;
 }
 .services-page{
-    background-color: rgba(255, 255, 255, .15);  
+    background-color: rgba(255, 255, 255, .26);  
     backdrop-filter: blur(5px);
     margin: 0 50px 0 50px;
     padding: 50px 0 60px 0;
@@ -62,16 +98,24 @@ body{
 
 .services-heading{
     font-family: 'Kanit', sans-serif;
-    color: #353333;
+    color: black;
+    text-shadow: 2px 2px 8px white;
 }
 
 .services-text{
     font-family: 'Inter', sans-serif;
+    color: rgb(17, 16, 16);
+    font-weight: 600;
 }
 
 .feature-title{
     font-family: 'Kanit', sans-serif;
     margin-top:5px;
+    color: black;
+}
+
+.services-icon{
+    color:black;
 }
 
 .services-icon:hover{
@@ -80,8 +124,15 @@ body{
 
 /*-----------------------Contact Page-----------------------*/
 
+#contact-page-header{
+    background-image: url("./product_images/Contact-Page-header.jpeg") !important;
+    background-size: cover;
+    background-position: center bottom 2px !important;
+    height: 100vh  
+}
+
 .contact-page-main{
-    background-color: rgba(255, 255, 255, .15);  
+    background-color: rgba(255, 255, 255, .26);  
     backdrop-filter: blur(5px);
     margin: 0 50px 20px 50px;
     padding: 50px 0 60px 0;
@@ -91,6 +142,8 @@ body{
 .contact-heading{
     font-family: 'Kanit', sans-serif;
     padding: 0 10px 0 10px;
+    color: black;
+    text-shadow: 2px 2px 8px white;
 }
 .contact-form-icon-container{
     margin-top: 25px;
@@ -124,12 +177,20 @@ body{
 
 /*-----------------------About Page-----------------------*/
 
+#about-page-header{
+    background-image: url("./product_images/About-Page-Header.jpeg") !important;
+    background-size: cover;
+    background-position: center bottom 2px !important;
+    height: 100vh;
+    
+}
+
 #About-Page{
     margin-top: 20px;
 }
 
 .about-page-main{
-    background-color: rgba(255, 255, 255, .15);  
+    background-color: rgba(255, 255, 255, .26);  
     backdrop-filter: blur(5px);
     margin: 0 50px 20px 50px;
     padding: 50px 0 60px 0;
@@ -138,6 +199,8 @@ body{
 
 .about-heading{
     font-family: 'Kanit', sans-serif;
+    color: black;
+    text-shadow: 2px 2px 8px white;
 }
 .about-heading:hover{
     color: #AF883A;
@@ -148,10 +211,12 @@ body{
     font-family: 'Inter', sans-serif;
     text-align: justify;
     padding: 0 10px 0 10px;
+    color: rgb(17, 16, 16);
+    font-weight: 600 !important;
 }
 
 .about-text-form{
-    color: #AF883A;
+    color: #88641b;
 }
 
 .about-text-form:hover{
@@ -159,6 +224,14 @@ body{
 }
 
 /*-----------------------Products Page-----------------------*/
+
+#product-page-header{
+    background-image: url("./product_images/Product-Page-Header.jpeg") !important;
+    background-size: cover;
+    background-position: center bottom 2px !important;
+    height: 100vh;
+
+}
 .store-header{
     background-image: url(/images/cannabis-2.jpg);
     background-repeat: no-repeat;
@@ -167,8 +240,16 @@ body{
 
 
 /*-----------------------Footer-----------------------*/
+
+footer{
+    background-color: rgba(255, 255, 255, .26);  
+    backdrop-filter: blur(5px);
+    padding: 30px 0 20px 0;
+}
+
 .footer-icon{
     margin: 0 5px 0 5px;
+    color: whitesmoke;
 }
 
 .footer-icon:hover{
@@ -178,6 +259,7 @@ body{
 .footer-text{
     margin-top: 10px;
     font-family: 'Inter', sans-serif;
+    color: whitesmoke;
 }
 
 
@@ -220,7 +302,6 @@ body{
     width: 250px;
     height: 250px;
 }
-
 
 
 
@@ -314,6 +395,7 @@ body{
 
 
 
+
    
 }
 
@@ -394,6 +476,8 @@ body{
     width: 500px;
     height: 500px;
    }
+
+
 
  }
 
