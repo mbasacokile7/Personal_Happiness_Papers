@@ -83,6 +83,26 @@ body{
     font-size: 23px;
 }
 
+.shopping-btn{
+    background-color: #AF883A;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    transition: font-size 1.2s;
+    margin-right: 10px;
+
+}
+
+.learn-btn:hover{
+    background-color: #AF883A;
+    font-size: 23px;
+}
+
+.shopping-icon{
+    margin-right: 10px;
+}
+
+
+
 /*-----------------------Services Page-----------------------*/
 #Services{
     margin-bottom: 30px;
@@ -127,8 +147,7 @@ body{
 #contact-page-header{
     background-image: url("./product_images/Contact-Page-header.jpeg") !important;
     background-size: cover;
-    background-position: center bottom 2px !important;
-    height: 100vh  
+    height: 100vh;
 }
 
 .contact-page-main{
@@ -180,7 +199,6 @@ body{
 #about-page-header{
     background-image: url("./product_images/About-Page-Header.jpeg") !important;
     background-size: cover;
-    background-position: center bottom 2px !important;
     height: 100vh;
     
 }
@@ -236,6 +254,11 @@ body{
     background-image: url(/images/cannabis-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.image-card{
+    height: 250px;
+    width: 325px;
 }
 
 
@@ -303,6 +326,15 @@ footer{
     height: 250px;
 }
 
+#about-page-header{
+    background-position: center bottom 2px !important;
+}
+
+#contact-page-header{
+    background-position: center bottom 2px !important;
+
+}
+
 
 
 
@@ -350,6 +382,16 @@ footer{
     height: 350px;
 }
 
+#about-page-header{
+    background-position: center bottom 2px !important;
+}
+
+#contact-page-header{
+    background-position: center bottom 2px !important;
+
+}
+
+
 
 
 
@@ -391,6 +433,16 @@ footer{
     width: 450px;
     height: 450px;
 }
+
+#about-page-header{
+    background-position: center bottom 2px !important;
+}
+
+#contact-page-header{
+    background-position: center bottom 2px !important;
+
+}
+
 
 
 
@@ -434,6 +486,16 @@ footer{
     height: 500px;
 }
 
+#about-page-header{
+    background-position: center bottom -200px !important;
+}
+
+#contact-page-header{
+    background-position: center bottom -250px !important;
+
+}
+
+
 
 
 
@@ -476,6 +538,16 @@ footer{
     width: 500px;
     height: 500px;
    }
+
+   #about-page-header{
+    background-position: center bottom -200px !important;
+    }
+
+#contact-page-header{
+    background-position: center bottom -250px !important;
+
+    }
+
 
 
 
