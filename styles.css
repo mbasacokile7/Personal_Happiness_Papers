@@ -26,7 +26,7 @@ body{
 /*-----------------------Landing Page-----------------------*/
 
 #landing-page-header{
-    background-image: url("https://github.com/mbasacokile7/Personal_Happiness_Papers/blob/main/product_images/Landing-Page-header.jpeg");
+    background-image: url("../Personal_Happiness_Papers/product_images/Contact-Page-header.jpeg");
     background-size: cover;
     background-position: center bottom 2px !important;
     height: 100vh  
@@ -145,7 +145,7 @@ body{
 /*-----------------------Contact Page-----------------------*/
 
 #contact-page-header{
-    background-image: url("../product_images/Contact-Page-header.jpeg");
+    background-image: url("../Personal_Happiness_Papers/product_images/Contact-Page-header.jpeg");
     background-size: cover;
     height: 100vh;
 }
@@ -197,7 +197,7 @@ body{
 /*-----------------------About Page-----------------------*/
 
 #about-page-header{
-    background-image: url("../product_images/About-Page-Header.jpeg");
+    background-image: url("../Personal_Happiness_Papers/product_images/About-Page-Header.jpeg");
     background-size: cover;
     height: 100vh;
     
@@ -244,7 +244,7 @@ body{
 /*-----------------------Products Page-----------------------*/
 
 #product-page-header{
-    background-image: url("../product_images/Product-Page-Header.jpeg");
+    background-image: url("../Personal_Happiness_Papers/product_images/Product-Page-Header.jpeg");
     background-size: cover;
     background-position: center bottom 2px !important;
     height: 100vh;
