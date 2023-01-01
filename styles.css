@@ -25,7 +25,7 @@ body{
 
 /*-----------------------Landing Page-----------------------*/
 
-header{
+landing-page-header{
     background-image: url("../product_images/Landing-Page-header.jpeg");
     background-size: cover;
     background-position: center bottom 2px !important;
